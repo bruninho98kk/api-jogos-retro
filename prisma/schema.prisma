@@ -33,7 +33,7 @@ model Record {
   id          String     @id @default(cuid())
   userId      Int
   score       Int
-  screenTime  String 
+  screenshot  String 
   gameId      String
 
   //Relations
