@@ -476,7 +476,7 @@ async function main() {
   );
 }
 
-main()
+/* main()
   .catch((e) => {
     console.error(e);
     process.exit(1);
@@ -484,3 +484,4 @@ main()
   .finally(async () => {
     await prisma.$disconnect();
   });
+  */
